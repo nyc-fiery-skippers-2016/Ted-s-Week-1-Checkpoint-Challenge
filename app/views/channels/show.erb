@@ -1,0 +1,13 @@
+<h2><%= @channel.name %> - More Information</h2>
+
+<ul>
+    <li>Channel subscribers: <%= @channel.subscribers %></li>
+    <li>Channel price: <%= @channel.price_per_month %></li>
+</ul>
+
+<!-- If user doesn't subscribe to channel, show link to add channel
+If user subscribes to channel, show link to remove channel -->
+
+<input type="submit" value="Add Channel">
+
+<input type="submit" value="Remove channel">
